@@ -14,9 +14,9 @@
     const widgetStyles = document.createElement('style');
     widgetStyles.textContent = `
         .chat-assist-widget {
-            --chat-color-primary: var(--chat-widget-primary, #10b981);
-            --chat-color-secondary: var(--chat-widget-secondary, #059669);
-            --chat-color-tertiary: var(--chat-widget-tertiary, #047857);
+               --chat-color-primary: var(--chat-widget-primary, #a66205);
+               --chat-color-secondary: var(--chat-widget-secondary, #a66205);
+               --chat-color-tertiary: var(--chat-widget-tertiary, #a66205);
             --chat-color-light: var(--chat-widget-light, #d1fae5);
             --chat-color-surface: var(--chat-widget-surface, #ffffff);
             --chat-color-text: var(--chat-widget-text, #1f2937);
