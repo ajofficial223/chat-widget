@@ -13,25 +13,26 @@
     // Apply widget styles with completely different design approach
     const widgetStyles = document.createElement('style');
     widgetStyles.textContent = `
-        .chat-assist-widget {
-               --chat-color-primary: var(--chat-widget-primary, #a66205);
-               --chat-color-secondary: var(--chat-widget-secondary, #a66205);
-               --chat-color-tertiary: var(--chat-widget-tertiary, #a66205);
-            --chat-color-light: var(--chat-widget-light, #d1fae5);
-            --chat-color-surface: var(--chat-widget-surface, #ffffff);
-            --chat-color-text: var(--chat-widget-text, #1f2937);
-            --chat-color-text-light: var(--chat-widget-text-light, #6b7280);
-            --chat-color-border: var(--chat-widget-border, #e5e7eb);
-            --chat-shadow-sm: 0 1px 3px rgba(16, 185, 129, 0.1);
-            --chat-shadow-md: 0 4px 6px rgba(16, 185, 129, 0.15);
-            --chat-shadow-lg: 0 10px 15px rgba(16, 185, 129, 0.2);
-            --chat-radius-sm: 8px;
-            --chat-radius-md: 12px;
-            --chat-radius-lg: 20px;
-            --chat-radius-full: 9999px;
-            --chat-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            font-family: 'Poppins', sans-serif;
-        }
+       .chat-assist-widget {
+    --chat-color-primary: var(--chat-widget-primary, #a66205);        /* Replaced green #10b981 */
+    --chat-color-secondary: var(--chat-widget-secondary, #a66205);    /* Replaced green #059669 */
+    --chat-color-tertiary: var(--chat-widget-tertiary, #a66205);      /* Replaced green #047857 */
+    --chat-color-light: var(--chat-widget-light, #f3e6d4);            /* Optional: soft cream bg */
+    --chat-color-surface: var(--chat-widget-surface, #ffffff);
+    --chat-color-text: var(--chat-widget-text, #1f2937);
+    --chat-color-text-light: var(--chat-widget-text-light, #6b7280);
+    --chat-color-border: var(--chat-widget-border, #e5e7eb);
+    --chat-shadow-sm: 0 1px 3px rgba(166, 98, 5, 0.1);
+    --chat-shadow-md: 0 4px 6px rgba(166, 98, 5, 0.15);
+    --chat-shadow-lg: 0 10px 15px rgba(166, 98, 5, 0.2);
+    --chat-radius-sm: 8px;
+    --chat-radius-md: 12px;
+    --chat-radius-lg: 20px;
+    --chat-radius-full: 9999px;
+    --chat-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
 
         .chat-assist-widget .chat-window {
             position: fixed;
